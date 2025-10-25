@@ -1,11 +1,13 @@
 <html>
 <head>
   <style>
-    body{
+    body, html{
       background-color: red;
+      margin: 0; padding: 0;
     }
     .myDiv {
       background-color: white; color: black; width: 100%;
+      margin: 0; padding: 0;
     }
   </style>
 </head>
