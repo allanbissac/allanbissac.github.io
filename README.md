@@ -2,14 +2,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    * {
-      box-sizing: border-box
-    }
-    .column{
-      float: left; width: 25%; padding: 0;
-    }
-    .row::afer{
-      content: ""; clear: both; display: table;
+    img{
+      float: left; width:100px; height:100px; object-fit: cover;
     }
     body, html{
       background-color: white;
@@ -32,19 +26,11 @@
   </div>
   
 <h1>Skills and interests</h1>
-<div class="row">
-  <div class="column">
-    <img src="Raspberry-Pi-Symbol.png" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="cpp_logo.png" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="python-logo.png" alt="" style="width:100%">
-  </div>
-  <div>
-    <img src="matlab_logo.png" alt="" style="width:100%">
-  </div>
+<img src="cpp_logo.png" alt="">
+<img src="matlab_logo.png" alt="">
+<img src="python-logo.png" alt="">
+<img src="Raspberry-Pi-Symbol.png" alt="">
+
 </div>
 
 
