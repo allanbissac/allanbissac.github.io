@@ -5,7 +5,7 @@
       background-color: red;
     }
     .myDiv {
-      background-color: white; color: black; max-width: 2000px;
+      background-color: white; color: black; width: 100%;
     }
   </style>
 </head>
