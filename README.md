@@ -9,6 +9,9 @@
       background-color: white;
       margin: 0; padding: 0;
     }
+    .myDiv{
+      background-color: black; color: white;
+    }
   </style>
 </head>
   
@@ -28,7 +31,7 @@
 <h1>Skills and interests</h1>
 <img src="cpp_logo.png">
 <img src="matlab_logo.png">
-<img src="python-logo.png">
+<img src="python-logo-only.png">
 <img src="Raspberry-Pi-Symbol.png">
 
 
