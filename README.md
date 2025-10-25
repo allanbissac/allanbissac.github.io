@@ -5,11 +5,11 @@
     * {
       box-sizing: border-box
     }
-    .row{
-      display: flex;
-    }
     .column{
-      flex: 25%; padding: 5px
+      float: left; width: 25%; padding: 5px;
+    }
+    .row::afer{
+      content: ""; clear: both; display: table;
     }
     body, html{
       background-color: white;
@@ -35,16 +35,16 @@
 <h1>Skills and interests</h1>
 <div class="row">
   <div class="column">
-    <img src="Raspberry-Pi-Symbol.png" alt="" style="width:100%">
+    <img src="Raspberry-Pi-Symbol.png" alt="" style="width:100px;height:auto">
   </div>
   <div class="column">
-    <img src="cpp_logo.png" alt="" style="width:100%">
+    <img src="cpp_logo.png" alt="" style="width:100px;height:auto">
   </div>
   <div class="column">
-    <img src="python-logo.png" alt="" style="width:100%">
+    <img src="python-logo.png" alt="" style="width:100px;height:auto">
   </div>
   <div>
-    <img src="matlab_logo.png" alt="" style="width:100%">
+    <img src="matlab_logo.png" alt="" style="width:100px;height:auto">
   </div>
 </div>
 
