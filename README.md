@@ -5,7 +5,7 @@
       box-sizing: border-box
     }
     .column{
-      float: left; width: 25%; padding: 5px;
+      float: left; width: 12.5%; padding: 5px;
     }
     .row::after{
       content: ""; clear: both; display: table;
