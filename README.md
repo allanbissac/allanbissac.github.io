@@ -1,8 +1,11 @@
 <html>
 <head>
   <style>
+    body{
+      background-color: purple;
+    }
     .myDiv {
-      background-color: purple; color: white; max-width: 1500px; margin: auto;
+      background-color: purple; color: white; max-width: 2000px;
     }
   </style>
 </head>
