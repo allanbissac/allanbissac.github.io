@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     img{
-      float: left; width:100px; height:100px; object-fit: cover;
+      float: left; width:200px; height:auto; object-fit: cover;
     }
     body, html{
       background-color: white;
@@ -31,7 +31,6 @@
 <img src="python-logo.png">
 <img src="Raspberry-Pi-Symbol.png">
 
-</div>
 
 
 </body>
