@@ -2,28 +2,29 @@
 <head>
   <style>
     body{
-      background-color: purple;
+      background-color: red;
     }
     .myDiv {
-      background-color: purple; color: white; max-width: 2000px;
+      background-color: white; color: black; max-width: 2000px;
     }
   </style>
 </head>
   
 <body>
-  <h1>About me</h1>
-  <p>I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
+  <h1 style="color:white;">About me</h1>
+  <p style="color:white;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
 
   <div class="myDiv">
     <h1>Projects</h1>
-    <p style="font-size:160%;"><b>Autonomous robotic platform for object detection and retrieval</b></p>
+    <p style="font-size:120%;"><b>Autonomous robotic platform for object detection and retrieval</b></p>
   </div>
-
-<h1>Skills and interests</h1>
-<p><b>Programming languages:</b> C, C++, MATLAB, Pascal, Python</p>
-<p><b>Software packages:</b> Jupyter Notebook, ROS, Simulink, VSCode</p>
   
-</body>
+<h1 style="color:white;">Skills and interests</h1>
+<ul>
+  <li style="color:white;"><b>Programming languages:</b> C, C++, MATLAB, Pascal, Python</li>
+  <li style="color:white;"><b>Frameworks and software packages:</b> Jupyter Notebook, ROS, Simulink, VSCode</li>
+</ul>
 
+</body>
 
 </html>
