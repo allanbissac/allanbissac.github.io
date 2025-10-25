@@ -22,7 +22,8 @@
   </div>
   
 <h1>Skills and interests</h1>
-<img src="C++_logo.jpg">
+<img src="C++_logo.jpg" alt="C">
+<img src="cpp_logo.png" alt="C++">
 
 </body>
 
