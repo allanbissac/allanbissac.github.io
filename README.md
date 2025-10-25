@@ -17,7 +17,7 @@
     }
     .myDiv {
       background-color: black; color: white; width: 100%;
-      margin: 0; padding: 0;
+      margin: 10px; padding: 10px;
     }
   </style>
 </head>
