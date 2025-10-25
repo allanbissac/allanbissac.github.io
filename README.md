@@ -6,7 +6,7 @@
       box-sizing: border-box
     }
     .column{
-      float: left; width: 25%; padding: 5px;
+      float: left; width: 25%; padding: 0;
     }
     .row::afer{
       content: ""; clear: both; display: table;
@@ -14,10 +14,6 @@
     body, html{
       background-color: white;
       margin: 0; padding: 0;
-    }
-    .myDiv {
-      background-color: black; color: white; width: 100%;
-      margin: 10px; padding: 10px;
     }
   </style>
 </head>
@@ -30,6 +26,9 @@
     <h1>Projects</h1>
     <!-- <p style="font-size:120%;"><b>Autonomous robotic platform for object detection and retrieval</b></p> -->
     <h2><b>Autonomous robotic platform for object detection and retrieval</b></h2>
+    <p>Currently developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot is then expected to carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object</p>
+    <h2>Embedded Systems Project</h2>
+    
   </div>
   
 <h1>Skills and interests</h1>
