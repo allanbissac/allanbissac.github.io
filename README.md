@@ -2,7 +2,7 @@
 <head>
   <style>
     .myDiv {
-      background-color: purple; color: white;
+      background-color: purple; color: white;width: max-content;
     }
   </style>
 </head>
