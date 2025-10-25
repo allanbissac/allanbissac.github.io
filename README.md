@@ -35,16 +35,16 @@
 <h1>Skills and interests</h1>
 <div class="row">
   <div class="column">
-    <img src="C_logo.png" alt="" style="width:100px;height:auto">
+    <img src="C_logo.png" alt="" style="width:100%">
   </div>
   <div class="column">
-    <img src="cpp_logo.png" alt="" style="width:100px;height:auto">
+    <img src="cpp_logo.png" alt="" style="width:100%">
   </div>
   <div class="column">
-    <img src="jupyter-notebook-logo.png" alt="" style="width:100px;height:auto">
+    <img src="jupyter-notebook-logo.png" alt="" style="width:100%">
   </div>
   <div>
-    <img src="matlab_logo.png" alt="" style="width:100px;height:auto">
+    <img src="matlab_logo.png" alt="" style="width:100%">
   </div>
 </div>
 
