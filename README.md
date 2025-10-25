@@ -13,7 +13,7 @@
 
   <div class="myDiv">
     <h1>Projects</h1>
-    <h2>Autonomous robotic platform for object detection and retrieval</h2>
+    <p style="font-size:160%;"><b>Autonomous robotic platform for object detection and retrieval</b></p>
   </div>
 
 <h1>Skills and interests</h1>
