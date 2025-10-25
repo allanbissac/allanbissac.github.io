@@ -1,14 +1,15 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     * {
       box-sizing: border-box
     }
-    .column{
-      float: left; width: 12.5%; padding: 5px;
+    .row{
+      display: flex;
     }
-    .row::after{
-      content: ""; clear: both; display: table;
+    .column{
+      flex: 25%; padding: 5px
     }
     body, html{
       background-color: white;
@@ -34,16 +35,16 @@
 <h1>Skills and interests</h1>
 <div class="row">
   <div class="column">
-    <img src="C_logo.png" alt="C" style="width:100px;height:auto">
+    <img src="C_logo.png" alt="" style="width:100px;height:auto">
   </div>
   <div class="column">
-    <img src="cpp_logo.png" alt="C++" style="width:100px;height:auto">
+    <img src="cpp_logo.png" alt="" style="width:100px;height:auto">
   </div>
   <div class="column">
-    <img src="jupyter-notebook-logo.png" alt="Jupyter Notebook" style="width:100px;height:auto">
+    <img src="jupyter-notebook-logo.png" alt="" style="width:100px;height:auto">
   </div>
   <div>
-    <img src="matlab_logo.png" alt="MATLAB" style="width:100px;height:auto">
+    <img src="matlab_logo.png" alt="" style="width:100px;height:auto">
   </div>
 </div>
 
