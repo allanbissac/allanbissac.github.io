@@ -8,8 +8,8 @@
     .container{
       text-align:center;
     }
-    .the_image{
-      margin:5px 20px; padding:5px; border: 1px solid white;
+    .container-right{
+      text-align:right;
     }
     body, html{
       background-color: white;
@@ -23,18 +23,36 @@
       background-color: white; color: black;
       padding-top:50px; padding-right:75px; padding-left:75px; padding-bottom:50px;
     }
+    .flex-container{
+      display: flex; justify-content: space-around;
+    }
+    a{
+      text-decoration:none;
+    }
     footer {
       text-align: left;
-      padding-top:50px; padding-bottom: 50px; padding-right:50px; padding-left:50px;
+      padding-top:100px; padding-bottom: 100px; padding-right:50px; padding-left:50px;
       background-color: black;
       color: white;
-}
+      }
   </style>
 </head>
   
 <body>
   <h1>ALLAN BINOY ISSAC</h1>
   <hr>
+
+  <div class="flex-container">
+    <div class="myDivWhite">
+      <h2>About me</h2>
+      <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
+    </div>
+    <div class="container-right">
+    <img src="newton.png" style="width:200px; height:auto">
+      </div>
+    </div>
+
+  
   <div class="myDivWhite">
     <h2>About me</h2>
     <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
@@ -72,7 +90,7 @@
 
 <footer>
   <p>&copy;Allan Binoy Issac. All rights reserved.</p>
-  <a href="mailto:allanbissac@outlook.com">allanbissac@outlook.com</a>
+  <a href="mailto:allanbissac@outlook.com" style="color:white">allanbissac@outlook.com</a>
 </footer>
 
 
