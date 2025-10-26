@@ -23,6 +23,12 @@
       background-color: white; color: black;
       padding-top:50px; padding-right:75px; padding-left:75px; padding-bottom:50px;
     }
+    footer {
+      text-align: left;
+      padding-top:50px; padding-bottom: 50px; padding-right:50px; padding-left:50px;
+      background-color: black;
+      color: white;
+}
   </style>
 </head>
   
@@ -51,12 +57,23 @@
   
 <h2 class="myDivWhite">Skills</h2>
 <div class="container">
+  <img src="C_logo.png" style="width:100px; height:auto">
   <img src="cpp_logo.png" style="width:100px; height:auto">
   <img src="matlab_logo.png" style="width:100px; height:auto">
+  <img src="jupyter-notebook-logo.png" style="width:100px; height:auto">
+  <img src="latex-project-logp.png" style="width:100px; height:auto">
   <img src="python-logo-only.png" style="width:100px; height:auto">
   <img src="Raspberry-Pi-Symbol.png" style="width:100px; height:auto">
+  <img src="ROS2_Color.png" style="width:100px; height:auto">
+  
 </div>
 
+<h2 class="myDivWhite">Video</h2>
+
+<footer>
+  <p>&copy;Allan Binoy Issac. All rights reserved.</p>
+  <a href="mailto:allanbissac@outlook.com">allanbissac@outlook.com</a>
+</footer>
 
 
 
