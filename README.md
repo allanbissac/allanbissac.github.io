@@ -26,11 +26,8 @@
     .flex-container{
       display: flex; justify-content: space-around;
     }
-    a{
-      text-decoration:none;
-    }
     footer {
-      text-align: left;
+      text-align: right;
       padding-top:100px; padding-bottom: 100px; padding-right:50px; padding-left:50px;
       background-color: black;
       color: white;
@@ -51,12 +48,6 @@
     <img src="newton.png" style="width:200px; height:auto">
       </div>
     </div>
-
-  
-  <div class="myDivWhite">
-    <h2>About me</h2>
-    <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
-  </div>
   
 
   <div class="myDiv">
