@@ -27,7 +27,7 @@
       display: flex; justify-content: space-around;
     }
     footer {
-      text-align: right;
+      text-align: center;
       padding-top:100px; padding-bottom: 100px; padding-right:50px; padding-left:50px;
       background-color: black;
       color: white;
@@ -80,7 +80,7 @@
 <h2 class="myDivWhite">Video</h2>
 
 <footer>
-  <p>&copy;Allan Binoy Issac. All rights reserved.</p>
+  <h4>&copy;Allan Binoy Issac. All rights reserved.</h4>
   <a href="mailto:allanbissac@outlook.com" style="color:white">allanbissac@outlook.com</a>
 </footer>
 
