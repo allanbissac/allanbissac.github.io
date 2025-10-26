@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     h1 {
-      text-align: center;
+      text-align: center; padding-top: 30px;
     }
     .container{
       text-align:center;
@@ -17,11 +17,11 @@
     }
     .myDiv{
       background-color: black; color: white;
-      padding-top:40px; padding-right:50px; padding-left:50px; padding-bottom:50px;
+      padding-top:40px; padding-right:75px; padding-left:75px; padding-bottom:50px;
     }
     .myDivWhite{
       background-color: white; color: black;
-      padding-top:50px; padding-right:50px; padding-left:50px; padding-bottom:50px;
+      padding-top:50px; padding-right:75px; padding-left:75px; padding-bottom:50px;
     }
   </style>
 </head>
