@@ -14,6 +14,7 @@
     }
     .myDiv{
       background-color: black; color: white;
+      padding-top:40px; padding-right:30px; padding-left:30px; padding-bottom:40px;
     }
   </style>
 </head>
@@ -28,6 +29,7 @@
     <h2><b>Autonomous robotic platform for object detection and retrieval</b></h2>
     <p>Currently developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot is expected to carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object.</p>
     <h2>Embedded Systems Project</h2>
+    <p>Designed a line-following buggy featuring an STM32 microcontroller board. Duties involved writing the PID control algorithm and sensor array PCB design.</p>
     
   </div>
   
