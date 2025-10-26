@@ -34,9 +34,9 @@
 <h1>Skills and interests</h1>
 <div class="container">
   <img src="cpp_logo.png" style="width:20px; height:auto">
-  <img src="matlab_logo.png" width:20px; height:auto>
-  <img src="python-logo-only.png" width:20px; height:auto>
-  <img src="Raspberry-Pi-Symbol.png" width:20px; height:auto>
+  <img src="matlab_logo.png" style="width:20px; height:auto">
+  <img src="python-logo-only.png" style="width:20px; height:auto">
+  <img src="Raspberry-Pi-Symbol.png" style="width:20px; height:auto">
 </div>
 
 
