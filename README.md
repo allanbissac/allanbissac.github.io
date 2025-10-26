@@ -2,8 +2,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    img{
-      float: left; width:200px; height:auto; object-fit: cover;
+    .container{
+      text-align:center;
+    }
+    .the_image{
+      margin:5px 20px; padding:5px; border: 1px solid white;
     }
     body, html{
       background-color: white;
@@ -29,6 +32,14 @@
   </div>
   
 <h1>Skills and interests</h1>
+<div class="container">
+  <img src="cpp_logo.png">
+  <img src="matlab_logo.png">
+  <img src="python-logo-only.png">
+  <img src="Raspberry-Pi-Symbol.png">
+</div>
+
+
 <img src="cpp_logo.png">
 <img src="matlab_logo.png">
 <img src="python-logo-only.png">
