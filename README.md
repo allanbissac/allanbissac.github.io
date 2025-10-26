@@ -45,7 +45,7 @@
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
     </div>
     <div class="container-right">
-    <img src="newton.png" style="width:125px; height:auto" padding-bottom:10px>
+    <img src="newton.png" style="width:125px; height:auto">
       </div>
     </div>
   
