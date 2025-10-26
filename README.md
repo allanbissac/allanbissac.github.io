@@ -5,6 +5,9 @@
     h1 {
       text-align: center; padding-top: 30px;
     }
+    img{
+      border-radius:50%;
+    }
     .container{
       text-align:center;
     }
@@ -45,7 +48,7 @@
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
     </div>
     <div class="container-right">
-    <img src="newton.png" style="width:200px; height:auto">
+    <img src="newton.png" style="width:200px; height:auto" padding-bottom:10px>
       </div>
     </div>
   
