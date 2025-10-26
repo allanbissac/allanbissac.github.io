@@ -14,14 +14,21 @@
     }
     .myDiv{
       background-color: black; color: white;
-      padding-top:40px; padding-right:30px; padding-left:30px; padding-bottom:40px;
+      padding-top:40px; padding-right:50px; padding-left:50px; padding-bottom:40px;
+    }
+    .myDivWhite{
+      background-color: white; color: black;
+      padding-top:40px; padding-right:50px; padding-left:50px; padding-bottom:40px;
     }
   </style>
 </head>
   
 <body>
-  <h1>About me</h1>
-  <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
+  <div class="myDivWhite">
+    <h1>About me</h1>
+    <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
+  </div>
+  
 
   <div class="myDiv">
     <h1>Projects</h1>
@@ -33,12 +40,12 @@
     
   </div>
   
-<h1>Skills and interests</h1>
+<h1 class="myDivWhite">Skills</h1>
 <div class="container">
-  <img src="cpp_logo.png" style="width:70px; height:auto">
-  <img src="matlab_logo.png" style="width:70px; height:auto">
-  <img src="python-logo-only.png" style="width:70px; height:auto">
-  <img src="Raspberry-Pi-Symbol.png" style="width:70px; height:auto">
+  <img src="cpp_logo.png" style="width:100px; height:auto">
+  <img src="matlab_logo.png" style="width:100px; height:auto">
+  <img src="python-logo-only.png" style="width:100px; height:auto">
+  <img src="Raspberry-Pi-Symbol.png" style="width:100px; height:auto">
 </div>
 
 
