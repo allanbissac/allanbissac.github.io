@@ -57,6 +57,9 @@
     <div class="myDivWhite">
       <h2 class="center_underline"><u>About me</u></h2>
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
+      <p><a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
+        <img src="github.png">
+        </a></p>
     </div>
     <div class="container-right">
     <img src="allan.png" style="width:150px; height:auto">
