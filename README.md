@@ -28,7 +28,7 @@
     }
     .myDiv{
       background-color: black; color: white;
-      padding-top:40px; padding-right:75px; padding-left:75px; padding-bottom:50px;
+      padding-top:40px; padding-right:20%; padding-left:20%px; padding-bottom:50px;
     }
     .myDivWhite{
       background-color: white; color: black;
@@ -53,7 +53,7 @@
   <div class="flex-container">
     <div class="myDivWhite">
       <h2>About me</h2>
-      <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics.</p>
+      <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. </p>
     </div>
     <div class="container-right">
     <img src="newton.png" style="width:125px; height:auto">
