@@ -85,7 +85,7 @@
   <img src="C_logo.png" style="width:100px; height:auto">
   <img src="cpp_logo.png" style="width:100px; height:auto">
   <img src="matlab_logo.png" style="width:100px; height:auto">
-  <img src="jupyter-notebook-logo.png" style="width:100px; height:auto">
+  <img src="jn.png" style="width:100px; height:auto">
   <img src="latex-project-logp.png" style="width:100px; height:auto">
   <img src="python-logo-only.png" style="width:100px; height:auto">
   <img src="Raspberry-Pi-Symbol.png" style="width:100px; height:auto">
