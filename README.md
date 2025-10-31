@@ -73,7 +73,7 @@
   <img src="latex-project-logp.png" style="width:100px; height:auto">
   <img src="python-logo-only.png" style="width:100px; height:auto">
   <img src="Raspberry-Pi-Symbol.png" style="width:100px; height:auto">
-  <img src="ROS2_Color.png" style="width:100px; height:auto">
+  <img src="ROS2_TM_Color.png" style="width:100px; height:auto">
   
 </div>
 
