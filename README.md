@@ -67,15 +67,15 @@
     <h3 class="center_heading"><b>Autonomous robotic platform for object detection and retrieval</b></h3>
     <p>Currently developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot is expected to carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object.</p>
     <h3 class="center_heading">Biomedical Radar Device for Soft-tissue Imaging Research</h3>
-    <img src="SGAP_platform.png" class="center_img" style="width:20%; height:auto;">
+    <img src="SGAP_platform.png" class="center_img" style="width:50%; height:auto;">
     <p>Developed a prototype near-field radar imaging system for non-invasive soft-tissue imaging. Focused on writing firmware for a Texas Instruments LAUNCHXL-F28379D board and Arduino Uno board for phase-locked loop frequency generation and communication with a mechatronic rig, respectively.</p>
     <h3 class="center_heading">C.U.B.O. (Cube Utilising Brutal Over-engineering)</h3>
-    <img src="cubo.png" class="center_img" style="width:20%; height:auto;">
+    <img src="cubo.png" class="center_img" style="width:50%; height:auto;">
     <p>Designing a robotic system powered by a Raspberry Pi board to solve a 3x3 Rubik's cube under 1 minute. Features a mechanical holder for the Rubik's cube and computer vision algorithms to perform the pattern identification and action implementation.</p>
     <h3 class="center_heading">DSP-based musical reverb algorithms using Blackfin devices</h3>
     <p>Implemented a reverberation algorithm comprised of digital comb filters, low pass filters and allpass filters for offline and real-time audio. The offline algorithm was applied to audio files through a custom graphical user interface in Delphi. Real-time audio processing was achieved on an Analog Devices Evaluation board featuring an ADSPBF706 digital signal processor</p>
     <h3 class="center_heading">Embedded Systems Project</h3>
-    <img src="buggy1.png" class="center_img" style="width:20%; height:auto;">
+    <img src="buggy1.png" class="center_img" style="width:50%; height:auto;">
     <p>Designed a line-following buggy featuring an STM32 microcontroller board. Duties involved writing the PID control algorithm and TCRT5000 sensor array PCB design.</p>
     
   </div>
