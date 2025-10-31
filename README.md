@@ -7,6 +7,8 @@
     }
     .container{
       text-align:center;
+      margin-right: 10px;
+      margin-left: 10px;
     }
     .container-right{
       text-align:right;
