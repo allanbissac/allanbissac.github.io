@@ -67,6 +67,7 @@
     <h2 class="center_underline"><u>Projects</u></h2>
     <!-- <p style="font-size:120%;"><b>Autonomous robotic platform for object detection and retrieval</b></p> -->
     <h3 class="center_heading"><b>Autonomous robotic platform for object detection and retrieval</b></h3>
+    <img src="robot.png" class="center_img" style="width:50%; height:auto;">
     <p>As part of the MSc team project, we are developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot will carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object. I worked on assembly and manipulator setup, and my next task is to focus on the computer vision to train the manipulator using YOLOv8.</p>
     <h3 class="center_heading">Biomedical Radar Device for Soft-tissue Imaging Research</h3>
     <img src="SGAP_platform.png" class="center_img" style="width:50%; height:auto;">
@@ -75,6 +76,7 @@
     <img src="cubo.png" class="center_img" style="width:50%; height:auto;">
     <p>An ongoing RoboSoc project, this team project involves designing an autonomous mechatronic system to solve a 3x3 Rubik's cube under 60 seconds. It features a customised mechanical holder for holding and rotating the cube, and a Raspberry Pi Zero 2 W for performing the computing. At the time of writing, we are working on circuit board design and the computer vision.</p>
     <h3 class="center_heading">DSP-based musical reverb algorithms using Blackfin devices</h3>
+    <img src="reverb.png" class="center_img" style="width:50%; height:auto;">
     <p>This is my third-year individual project which implemented a reverberation algorithm, supervised by Prof. Patrick Gaydecki. The algorithm comprised digital comb filters, low pass filters and allpass filters arranged logically to simulate direct and indirect audio reflections. Separate offline and real-time algorithms were made. The offline algorithm was programmed in Delphi and could be applied to .WAV files selected via a custom graphical user interface. Real-time audio processing was achieved by programming an ADSP-BF706 EZ-KIT Mini Evaluation board with the algorithm and then applying it to an audio input.</p>
     <h3 class="center_heading">Embedded Systems Project</h3>
     <img src="buggy1.png" class="center_img" style="width:50%; height:auto;">
