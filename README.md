@@ -33,7 +33,7 @@
       padding-top:40px; padding-right:20%; padding-left:20%; padding-bottom:50px;
     }
     .myDivWhite{
-      background-color: white; color: black;
+      background-color: violet; color: black;
       padding-top:50px; padding-right:20%; padding-left:20%; padding-bottom:100px;
     }
     .flex-container{
@@ -97,7 +97,7 @@
   
 </div>
 
-<h2 class="center_heading"><u>Video</u></h2>
+<h2 class="center_heading"><u>Academic videos</u></h2>
 <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/rEPwbM8i3BM?si=GJhMsOeDzOkjb-d4&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
 <footer>
