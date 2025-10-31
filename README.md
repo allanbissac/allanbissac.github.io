@@ -15,7 +15,7 @@
       text-align:right;
     }
     body, html{
-      background-color: white;
+      background-color: violet;
       margin: 0; padding: 0;
     }
     .center_heading{
