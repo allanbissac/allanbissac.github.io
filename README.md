@@ -59,6 +59,8 @@
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
       <p><a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
         <img src="github.png" style="width:75px;height:auto">
+        </a> <a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
+        <img src="linkedin.png" style="width:75px;height:auto">
         </a></p>
     </div>
     <div class="container-right">
