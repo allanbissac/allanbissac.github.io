@@ -58,7 +58,7 @@
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. </p>
     </div>
     <div class="container-right">
-    <img src="newton.png" style="width:120px; height:auto">
+    <img src="allan.png" style="width:120px; height:auto">
       </div>
     </div>
   
@@ -67,7 +67,7 @@
     <h2 class="center_underline"><u>Projects</u></h2>
     <!-- <p style="font-size:120%;"><b>Autonomous robotic platform for object detection and retrieval</b></p> -->
     <h3 class="center_heading"><b>Autonomous robotic platform for object detection and retrieval</b></h3>
-    <img src="robot.png" class="center_img" style="width:50%; height:auto;">
+    <img src="autonomous.png" class="center_img" style="width:50%; height:auto;">
     <p>As part of the MSc team project, we are developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot will carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object. I worked on assembly and manipulator setup, and my next task is to focus on the computer vision to train the manipulator using YOLOv8.</p>
     <h3 class="center_heading">Biomedical Radar Device for Soft-tissue Imaging Research</h3>
     <img src="SGAP_platform.png" class="center_img" style="width:50%; height:auto;">
