@@ -5,12 +5,6 @@
     h1 {
       text-align: center; padding-top: 30px;
     }
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
     .container{
       text-align:center;
     }
@@ -20,6 +14,11 @@
     body, html{
       background-color: white;
       margin: 0; padding: 0;
+    }
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right:auto;
     }
     .myDiv{
       background-color: black; color: white;
