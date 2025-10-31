@@ -82,11 +82,11 @@
   
 <h2 class="center_heading">Skills</h2>
 <div class="container">
-  <img src="C_logo.png" style="width:100px; height:auto">
+  <img src="c-program-icon.png" style="width:100px; height:auto">
   <img src="cpp_logo.png" style="width:100px; height:auto">
   <img src="matlab_logo.png" style="width:100px; height:auto">
   <img src="jn.png" style="width:100px; height:auto">
-  <img src="latex-project-logp.png" style="width:100px; height:auto">
+  <img src="latex.png" style="width:100px; height:auto">
   <img src="python-logo-only.png" style="width:100px; height:auto">
   <img src="Raspberry-Pi-Symbol.png" style="width:100px; height:auto">
   <img src="logo-ros.png" style="width:100px; height:auto">
