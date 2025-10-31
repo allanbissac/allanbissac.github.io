@@ -62,7 +62,7 @@
       <p style="color:black;">I am currently a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
       <p><a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
         <img src="github.png" style="width:70px;height:auto">
-        </a> <a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
+        </a> <a href="https://www.linkedin.com/in/allan-binoy-issac" target="_blank" rel="noopener noreferrer">
         <img src="linkedin.png" style="width:70px;height:auto">
         </a></p>
     </div>
