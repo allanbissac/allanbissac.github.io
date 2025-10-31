@@ -96,7 +96,7 @@
 </div>
 
 <h2 class="center_heading"><u>Video</u></h2>
-<iframe width="400px" height="auto" src="https://youtu.be/rEPwbM8i3BM"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rEPwbM8i3BM?si=GJhMsOeDzOkjb-d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <footer>
   <h4>&copy;Allan Binoy Issac. All rights reserved.</h4>
