@@ -56,6 +56,7 @@
     <h3><b>Autonomous robotic platform for object detection and retrieval</b></h3>
     <p>Currently developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot is expected to carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object.</p>
     <h3>Biomedical Radar Device for Soft-tissue Imaging Research</h3>
+    <img src="mechatronic_rig.png" style="width:125px; height:auto">
     <p>Developed a prototype near-field radar imaging system for non-invasive soft-tissue imaging. Focused on writing firmware for a Texas Instruments LAUNCHXL-F28379D board and Arduino Uno board for phase-locked loop frequency generation and communication with a mechatronic rig, respectively.</p>
     <h3>C.U.B.O. (Cube Utilising Brutal Over-engineering)</h3>
     <p>Designing a robotic system powered by a Raspberry Pi board to solve a 3x3 Rubik's cube under 1 minute. Features a mechanical holder for the Rubik's cube and computer vision algorithms to perform the pattern identification and action implementation.</p>
