@@ -58,7 +58,7 @@
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. </p>
     </div>
     <div class="container-right">
-    <img src="newton.png" style="width:125px; height:auto">
+    <img src="newton.png" style="width:120px; height:auto">
       </div>
     </div>
   
@@ -96,6 +96,7 @@
 </div>
 
 <h2 class="center_heading"><u>Video</u></h2>
+<iframe width="400px" height="auto" src="https://youtu.be/rEPwbM8i3BM"></iframe>
 
 <footer>
   <h4>&copy;Allan Binoy Issac. All rights reserved.</h4>
