@@ -6,7 +6,7 @@
       text-align: center; padding-top: 30px;
     }
     .container{
-      background-color: violet;
+      background-color: white;
       text-align:center;
       margin-right: 10px;
       margin-left: 10px;
@@ -15,7 +15,7 @@
       text-align:right;
     }
     body, html{
-      background-color: violet;
+      background-color: white;
       margin: 0; padding: 0;
     }
     .center_heading{
@@ -34,7 +34,7 @@
       padding-top:40px; padding-right:20%; padding-left:20%; padding-bottom:50px;
     }
     .myDivWhite{
-      background-color: violet; color: black;
+      background-color: white; color: black;
       padding-top:50px; padding-right:20%; padding-left:20%; padding-bottom:100px;
     }
     .flex-container{
