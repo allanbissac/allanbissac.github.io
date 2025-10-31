@@ -34,7 +34,7 @@
     }
     .myDivWhite{
       background-color: white; color: black;
-      padding-top:50px; padding-right:100px; padding-left:100px; padding-bottom:100px;
+      padding-top:50px; padding-right:20%; padding-left:20%; padding-bottom:100px;
     }
     .flex-container{
       display: flex; justify-content: space-around;
