@@ -54,7 +54,7 @@
 
   <div class="flex-container">
     <div class="myDivWhite">
-      <h2><u>About me</u></h2>
+      <h2 class="center_underline"><u>About me</u></h2>
       <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. </p>
     </div>
     <div class="container-right">
