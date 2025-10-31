@@ -55,10 +55,10 @@
   <div class="flex-container">
     <div class="myDivWhite">
       <h2 class="center_underline"><u>About me</u></h2>
-      <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. </p>
+      <p style="color:black;">I am a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
     </div>
     <div class="container-right">
-    <img src="allan.png" style="width:100px; height:auto">
+    <img src="allan.png" style="width:150px; height:auto">
       </div>
     </div>
   
