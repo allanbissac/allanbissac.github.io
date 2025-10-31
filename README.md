@@ -6,6 +6,7 @@
       text-align: center; padding-top: 30px;
     }
     .container{
+      background-color: violet;
       text-align:center;
       margin-right: 10px;
       margin-left: 10px;
