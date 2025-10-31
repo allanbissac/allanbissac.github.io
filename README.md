@@ -28,7 +28,7 @@
     }
     .myDiv{
       background-color: black; color: white;
-      padding-top:40px; padding-right:20%; padding-left:20%px; padding-bottom:50px;
+      padding-top:40px; padding-right:20%; padding-left:20%; padding-bottom:50px;
     }
     .myDivWhite{
       background-color: white; color: black;
