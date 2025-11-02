@@ -1,244 +1,215 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Allan Binoy Issac Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allan Binoy Issac</title>
 <style>
-  /* General Reset */
   body, html {
-    background-color: white;
-    margin: 0; 
+    margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    background-color: #fff;
   }
 
-  h1 {
-    text-align: center; 
-    padding-top: 30px;
+  h1, h2, h3 {
+    text-align: center;
+    margin: 0 0 20px 0;
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.6;
   }
 
-  .container {
-    background-color: white;
-    text-align: center;
-    margin: 0 10px;
+  /* About Me Section */
+  .about-me {
+    display: flex;
+    flex-direction: row; /* Row on large screens */
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: #f9f9f9;
   }
 
-  .container-right {
-    text-align: right;
+  .about-text {
+    flex: 1;
+    padding-right: 20px;
   }
 
-  .center_heading {
-    text-align: center;
+  .about-img {
+    flex-shrink: 0;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Hover effect */
   }
 
-  .center_img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-
-  .center_img:hover {
+  .about-img:hover {
     transform: scale(1.05);
   }
 
-  .center_underline {
-    text-align: center;
-    text-decoration: underline;
-  }
-
-  .myDiv {
-    background-color: black;
+  /* Projects Section */
+  section.projects {
+    background-color: #000;
     color: white;
-    padding: 40px 20%;
+    padding: 50px 10%;
   }
 
-  .myDivWhite {
-    background-color: white;
-    color: black;
-    padding: 50px 20%;
-  }
-
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 10%;
-  }
-
-  footer {
-    text-align: center;
-    padding: 100px 50px;
-    background-color: black;
-    color: white;
-  }
-
-  /* Profile image adjustment */
-  .profile-img {
-    width: 150px;
+  section.projects img {
+    max-width: 50%;
     height: auto;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
-  }
-
-  /* Social Icons */
-  .social-icons img {
-    width: 70px;
-    height: auto;
-    margin: 0 5px;
+    margin: 20px auto;
     transition: transform 0.3s ease;
   }
 
-  .social-icons img:hover {
-    transform: scale(1.2);
+  section.projects img:hover {
+    transform: scale(1.05);
   }
 
   /* Skills Section */
-  .skills-container {
+  section.skills {
+    background-color: #fff;
+    padding: 50px 10%;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    padding: 20px 10%;
+    gap: 20px; /* space between icons */
   }
 
-  .skills-container img {
-    width: 100px;
-    height: auto;
+  section.skills img {
+    height: 80px; /* adjust as needed */
+    width: auto;
+    transition: transform 0.3s ease;
   }
 
-  /* Responsive Projects Grid */
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    padding: 40px 10%;
+  section.skills img:hover {
+    transform: scale(1.1);
   }
 
-  .project-item h3 {
+  /* Academic Videos Section */
+  section.videos {
+    background-color: #f0f0f0;
+    padding: 50px 10%;
     text-align: center;
-    margin-bottom: 15px;
   }
 
-  .project-item p {
-    text-align: justify;
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #000;
+    color: white;
   }
 
-  .project-item img {
-    border-radius: 8px;
-  }
-
-  @media (max-width: 768px) {
-    .myDiv, .myDivWhite {
-      padding: 30px 10%;
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .about-me {
+      padding: 50px 5%;
     }
-    .flex-container {
-      flex-direction: column;
-      align-items: center;
+
+    section.projects {
+      padding: 50px 5%;
     }
-    .container-right {
+
+    section.skills {
+      padding: 50px 5%;
+    }
+
+    section.videos {
+      padding: 50px 5%;
+    }
+
+    footer {
+      padding: 50px 5%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-me {
+      flex-direction: column; /* Stack image above text */
       text-align: center;
-      margin-top: 20px;
+    }
+
+    .about-text {
+      padding: 0;
+    }
+
+    .about-img {
+      margin-bottom: 20px;
+      max-width: 150px;
+    }
+
+    section.projects img {
+      max-width: 80%;
     }
   }
 
 </style>
 </head>
-
 <body>
 
 <h1>ALLAN BINOY ISSAC</h1>
 <hr />
 
-<!-- About Me Section -->
-<div class="flex-container">
-  <div class="myDivWhite">
-    <h2 class="center_underline"><u>About me</u></h2>
+<section class="about-me">
+  <img src="allan.png" alt="Allan Binoy Issac" class="about-img">
+  <div class="about-text">
+    <h2>About Me</h2>
     <p>I am currently a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
-    <p class="social-icons">
+    <p>
       <a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
-        <img src="github.png" alt="GitHub" />
+        <img src="github.png" style="width:50px; height:auto" />
       </a>
       <a href="https://www.linkedin.com/in/allan-binoy-issac" target="_blank" rel="noopener noreferrer">
-        <img src="linkedin.png" alt="LinkedIn" />
+        <img src="linkedin.png" style="width:50px; height:auto" />
       </a>
     </p>
   </div>
+</section>
 
-  <div class="container-right">
-    <img src="allan.png" alt="Allan Binoy Issac" class="profile-img" />
-  </div>
-</div>
+<section class="projects">
+  <h2>Projects</h2>
 
-<!-- Projects Section -->
-<div class="myDiv">
-  <h2 class="center_underline"><u>Projects</u></h2>
+  <h3>Autonomous robotic platform for object detection and retrieval</h3>
+  <img src="autonomous.png" alt="Autonomous Robot">
+  <p>As part of the MSc team project, we are developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects...</p>
 
-  <div class="projects-grid">
-    <div class="project-item">
-      <h3>Autonomous robotic platform for object detection and retrieval</h3>
-      <img src="autonomous.png" alt="Autonomous Robot" class="center_img" />
-      <p>As part of the MSc team project, we are developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects...</p>
-    </div>
+  <h3>Biomedical Radar Device for Soft-tissue Imaging Research</h3>
+  <img src="SGAP_platform.png" alt="Radar Device">
+  <p>Developed a prototype near-field radar imaging system for non-invasive soft-tissue imaging...</p>
 
-    <div class="project-item">
-      <h3>Biomedical Radar Device for Soft-tissue Imaging Research</h3>
-      <img src="SGAP_platform.png" alt="Biomedical Radar" class="center_img" />
-      <p>Developed a prototype near-field radar imaging system for non-invasive soft-tissue imaging...</p>
-    </div>
+  <h3>C.U.B.O. (Cube Utilising Brutal Over-engineering)</h3>
+  <img src="cubo.png" alt="Cube Project">
+  <p>An ongoing RoboSoc project, this team project involves designing an autonomous mechatronic system to solve a 3x3 Rubik's cube under 60 seconds...</p>
 
-    <div class="project-item">
-      <h3>C.U.B.O. (Cube Utilising Brutal Over-engineering)</h3>
-      <img src="cubo.png" alt="CUBO" class="center_img" />
-      <p>An ongoing RoboSoc project, this team project involves designing an autonomous mechatronic system to solve a 3x3 Rubik's cube under 60 seconds...</p>
-    </div>
+  <h3>DSP-based musical reverb algorithms using Blackfin devices</h3>
+  <img src="reverb.png" alt="Reverb Project">
+  <p>This is my third-year individual project which implemented a reverberation algorithm...</p>
 
-    <div class="project-item">
-      <h3>DSP-based musical reverb algorithms using Blackfin devices</h3>
-      <img src="reverb.png" alt="DSP Reverb" class="center_img" />
-      <p>This is my third-year individual project which implemented a reverberation algorithm...</p>
-    </div>
+  <h3>Embedded Systems Project</h3>
+  <img src="buggy1.png" alt="Buggy Project">
+  <p>In this second-year team project, we designed a semi-autonomous buggy that could follow a white line...</p>
+</section>
 
-    <div class="project-item">
-      <h3>Embedded Systems Project</h3>
-      <img src="buggy1.png" alt="Embedded Systems Buggy" class="center_img" />
-      <p>In this second-year team project, we designed a semi-autonomous buggy that could follow a white line...</p>
-    </div>
-  </div>
-</div>
+<section class="skills">
+  <h2>Skills</h2>
+  <img src="c-program-icon.png" alt="C">
+  <img src="cpp_logo.png" alt="C++">
+  <img src="matlab_logo.png" alt="MATLAB">
+  <img src="jn.png" alt="Jupyter Notebook">
+  <img src="latex.png" alt="LaTeX">
+  <img src="python-logo-only.png" alt="Python">
+  <img src="Raspberry-Pi-Symbol.png" alt="Raspberry Pi">
+  <img src="logo-ros.png" alt="ROS">
+</section>
 
-<!-- Skills Section -->
-<h2 class="center_heading"><u>Skills</u></h2>
-<div class="skills-container">
-  <img src="c-program-icon.png" alt="C" />
-  <img src="cpp_logo.png" alt="C++" />
-  <img src="matlab_logo.png" alt="MATLAB" />
-  <img src="jn.png" alt="Jupyter Notebook" />
-  <img src="latex.png" alt="LaTeX" />
-  <img src="python-logo-only.png" alt="Python" />
-  <img src="Raspberry-Pi-Symbol.png" alt="Raspberry Pi" />
-  <img src="logo-ros.png" alt="ROS" />
-</div>
-
-<!-- Academic Videos Section -->
-<h2 class="center_heading"><u>Academic videos</u></h2>
-<p align="center">
+<section class="videos">
+  <h2>Academic Videos</h2>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rEPwbM8i3BM?si=GJhMsOeDzOkjb-d4&amp;start=1" 
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+          title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</section>
 
-<!-- Footer -->
 <footer>
   <p><b>&copy; Allan Binoy Issac. All rights reserved.</b></p>
   <a href="mailto:allanbissac@outlook.com" style="color:white">allanbissac@outlook.com</a>
@@ -246,3 +217,4 @@
 
 </body>
 </html>
+
