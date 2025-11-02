@@ -15,6 +15,10 @@
     margin: 0 0 20px 0;
   }
 
+  h1 {
+    margin-top: 30px; /* Added 30px top margin for the name */
+  }
+
   p {
     font-size: 18px;
     line-height: 1.6;
@@ -37,6 +41,10 @@
   .about-text {
     flex: 1;
     padding-right: 30px;
+  }
+
+  .about-text h2 {
+    text-align: center; /* Center-align About Me heading */
   }
 
   .about-img {
@@ -269,5 +277,4 @@
 
 </body>
 </html>
-
 
