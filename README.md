@@ -1,121 +1,248 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    h1 {
-      text-align: center; padding-top: 30px;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Allan Binoy Issac Portfolio</title>
+<style>
+  /* General Reset */
+  body, html {
+    background-color: white;
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center; 
+    padding-top: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .container {
+    background-color: white;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .container-right {
+    text-align: right;
+  }
+
+  .center_heading {
+    text-align: center;
+  }
+
+  .center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .center_img:hover {
+    transform: scale(1.05);
+  }
+
+  .center_underline {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .myDiv {
+    background-color: black;
+    color: white;
+    padding: 40px 20%;
+  }
+
+  .myDivWhite {
+    background-color: white;
+    color: black;
+    padding: 50px 20%;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: black;
+    color: white;
+  }
+
+  /* Profile image adjustment */
+  .profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* Social Icons */
+  .social-icons img {
+    width: 70px;
+    height: auto;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-icons img:hover {
+    transform: scale(1.2);
+  }
+
+  /* Skills Section */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10%;
+  }
+
+  .skills-container img {
+    width: 100px;
+    height: auto;
+  }
+
+  /* Responsive Projects Grid */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px 10%;
+  }
+
+  .project-item h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .project-item p {
+    text-align: justify;
+  }
+
+  .project-item img {
+    border-radius: 8px;
+  }
+
+  @media (max-width: 768px) {
+    .myDiv, .myDivWhite {
+      padding: 30px 10%;
     }
-    p{
-      font-size: 20px;
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
     }
-    .container{
-      background-color: white;
-      text-align:center;
-      margin-right: 10px;
-      margin-left: 10px;
-    }
-    .container-right{
-      text-align:right;
-    }
-    body, html{
-      background-color: white;
-      margin: 0; padding: 0;
-    }
-    .center_heading{
+    .container-right {
       text-align: center;
+      margin-top: 20px;
     }
-    .center_img{
-      display: block;
-      margin-left: auto;
-      margin-right:auto;
-    }
-    .center_underline{
-      text-align: center; text-decoration: underline;
-    }
-    .myDiv{
-      background-color: black; color: white;
-      padding-top:40px; padding-right:20%; padding-left:20%; padding-bottom:50px;
-    }
-    .myDivWhite{
-      background-color: white; color: black;
-      padding-top:50px; padding-right:20%; padding-left:20%; padding-bottom:100px;
-    }
-    .flex-container{
-      display: flex; justify-content: space-around;
-    }
-    footer {
-      text-align: center;
-      padding-top:100px; padding-bottom: 100px; padding-right:50px; padding-left:50px;
-      background-color: black;
-      color: white;
-      }
-  </style>
+  }
+
+</style>
 </head>
-  
+
 <body>
-  <h1>ALLAN BINOY ISSAC</h1>
-  <hr>
 
-  <div class="flex-container">
-    <div class="myDivWhite">
-      <h2 class="center_underline"><u>About me</u></h2>
-      <p style="color:black;">I am currently a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
-      <p><a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
-        <img src="github.png" style="width:70px;height:auto">
-        </a> <a href="https://www.linkedin.com/in/allan-binoy-issac" target="_blank" rel="noopener noreferrer">
-        <img src="linkedin.png" style="width:70px;height:auto">
-        </a></p>
-    </div>
-    <div class="container-right">
-    <img src="allan.png" style="width:150px; height:auto">
-      </div>
-    </div>
-  
+<h1>ALLAN BINOY ISSAC</h1>
+<hr />
 
-  <div class="myDiv">
-    <h2 class="center_underline"><u>Projects</u></h2>
-    <!-- <p style="font-size:120%;"><b>Autonomous robotic platform for object detection and retrieval</b></p> -->
-    <h2 class="center_heading"><b>Autonomous robotic platform for object detection and retrieval</b></h2>
-    <img src="autonomous.png" class="center_img" style="width:50%; height:auto;">
-    <p>As part of the MSc team project, we are developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. The robot will carry the object using a gripper attached to its manipulator and place the object in a bin that is of the same colour as the object. I worked on assembly and manipulator setup, and my next task is to focus on the computer vision to train the manipulator using YOLOv8.</p>
-    <h2 class="center_heading">Biomedical Radar Device for Soft-tissue Imaging Research</h2>
-    <img src="SGAP_platform.png" class="center_img" style="width:50%; height:auto;">
-    <p>Developed a prototype near-field radar imaging system for non-invasive soft-tissue imaging. I largely focused on writing the firmware for a Texas Instruments LAUNCHXL-F28379D board and Arduino Uno board for phase-locked loop frequency generation and communication with a mechatronic rig, respectively.</p>
-    <h2 class="center_heading">C.U.B.O. (Cube Utilising Brutal Over-engineering)</h2>
-    <img src="cubo.png" class="center_img" style="width:50%; height:auto;">
-    <p>An ongoing RoboSoc project, this team project involves designing an autonomous mechatronic system to solve a 3x3 Rubik's cube under 60 seconds. It features a customised mechanical holder for holding and rotating the cube, and a Raspberry Pi Zero 2 W for performing the computing. At the time of writing, we are working on circuit board design and the computer vision.</p>
-    <h2 class="center_heading">DSP-based musical reverb algorithms using Blackfin devices</h2>
-    <img src="reverb.png" class="center_img" style="width:50%; height:auto;">
-    <p>This is my third-year individual project which implemented a reverberation algorithm, supervised by Prof. Patrick Gaydecki. The algorithm comprised digital comb filters, low pass filters and allpass filters arranged logically to simulate direct and indirect audio reflections. Separate offline and real-time algorithms were made. The offline algorithm was programmed in Delphi and could be applied to .WAV files selected via a custom graphical user interface. Real-time audio processing was achieved by programming an ADSP-BF706 EZ-KIT Mini Evaluation board with the algorithm and then applying it to an audio input.</p>
-    <h2 class="center_heading">Embedded Systems Project</h2>
-    <img src="buggy1.png" class="center_img" style="width:50%; height:auto;">
-    <p>In this second-year team project, we designed a semi-autonomous buggy that could follow a white line. In terms of hardware, the buggy featured an STM32 microcontroller board to perform all the computing, an optical sensor array to detect the white line, motors, gearboxes and the customised chassis holding everything together. My duties involved writing the PID control algorithm to ensure that the buggy stayed on track and the design of the PCB incorporating the TCRT5000 sensor array.</p>
-    
+<!-- About Me Section -->
+<div class="flex-container">
+  <div class="myDivWhite">
+    <h2 class="center_underline"><u>About me</u></h2>
+    <p>I am currently a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
+    <p class="social-icons">
+      <a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
+        <img src="github.png" alt="GitHub" />
+      </a>
+      <a href="https://www.linkedin.com/in/allan-binoy-issac" target="_blank" rel="noopener noreferrer">
+        <img src="linkedin.png" alt="LinkedIn" />
+      </a>
+    </p>
   </div>
-  
-<h2 class="center_heading"><u>Skills</u></h2>
-<div class="container">
-  <img src="c-program-icon.png" style="width:100px; height:auto">
-  <img src="cpp_logo.png" style="width:100px; height:auto">
-  <img src="matlab_logo.png" style="width:100px; height:auto">
-  <img src="jn.png" style="width:100px; height:auto">
-  <img src="latex.png" style="width:100px; height:auto">
-  <img src="python-logo-only.png" style="width:100px; height:auto">
-  <img src="Raspberry-Pi-Symbol.png" style="width:100px; height:auto">
-  <img src="logo-ros.png" style="width:100px; height:auto">
-  
+
+  <div class="container-right">
+    <img src="allan.png" alt="Allan Binoy Issac" class="profile-img" />
+  </div>
 </div>
 
-<h2 class="center_heading"><u>Academic videos</u></h2>
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/rEPwbM8i3BM?si=GJhMsOeDzOkjb-d4&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<!-- Projects Section -->
+<div class="myDiv">
+  <h2 class="center_underline"><u>Projects</u></h2>
 
+  <div class="projects-grid">
+    <div class="project-item">
+      <h3>Autonomous robotic platform for object detection and retrieval</h3>
+      <img src="autonomous.png" alt="Autonomous Robot" class="center_img" />
+      <p>As part of the MSc team project, we are developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects...</p>
+    </div>
+
+    <div class="project-item">
+      <h3>Biomedical Radar Device for Soft-tissue Imaging Research</h3>
+      <img src="SGAP_platform.png" alt="Biomedical Radar" class="center_img" />
+      <p>Developed a prototype near-field radar imaging system for non-invasive soft-tissue imaging...</p>
+    </div>
+
+    <div class="project-item">
+      <h3>C.U.B.O. (Cube Utilising Brutal Over-engineering)</h3>
+      <img src="cubo.png" alt="CUBO" class="center_img" />
+      <p>An ongoing RoboSoc project, this team project involves designing an autonomous mechatronic system to solve a 3x3 Rubik's cube under 60 seconds...</p>
+    </div>
+
+    <div class="project-item">
+      <h3>DSP-based musical reverb algorithms using Blackfin devices</h3>
+      <img src="reverb.png" alt="DSP Reverb" class="center_img" />
+      <p>This is my third-year individual project which implemented a reverberation algorithm...</p>
+    </div>
+
+    <div class="project-item">
+      <h3>Embedded Systems Project</h3>
+      <img src="buggy1.png" alt="Embedded Systems Buggy" class="center_img" />
+      <p>In this second-year team project, we designed a semi-autonomous buggy that could follow a white line...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<h2 class="center_heading"><u>Skills</u></h2>
+<div class="skills-container">
+  <img src="c-program-icon.png" alt="C" />
+  <img src="cpp_logo.png" alt="C++" />
+  <img src="matlab_logo.png" alt="MATLAB" />
+  <img src="jn.png" alt="Jupyter Notebook" />
+  <img src="latex.png" alt="LaTeX" />
+  <img src="python-logo-only.png" alt="Python" />
+  <img src="Raspberry-Pi-Symbol.png" alt="Raspberry Pi" />
+  <img src="logo-ros.png" alt="ROS" />
+</div>
+
+<!-- Academic Videos Section -->
+<h2 class="center_heading"><u>Academic videos</u></h2>
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rEPwbM8i3BM?si=GJhMsOeDzOkjb-d4&amp;start=1" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
+<!-- Footer -->
 <footer>
-  <p><b>&copy;Allan Binoy Issac. All rights reserved.</b></p>
+  <p><b>&copy; Allan Binoy Issac. All rights reserved.</b></p>
   <a href="mailto:allanbissac@outlook.com" style="color:white">allanbissac@outlook.com</a>
 </footer>
 
-
-
 </body>
-
 </html>
