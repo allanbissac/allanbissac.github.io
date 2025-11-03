@@ -203,7 +203,7 @@
 <section class="about-me">
   <div class="about-text">
     <h2>About Me</h2>
-    <p>I am currently a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics researcher.</p>
+    <p>I am currently a Robotics MSc student at The University of Manchester. My areas of expertise include embedded systems, control and robotics. My career goal is to become a robotics engineer.</p>
     <p>
       <a href="https://github.com/allanbissac" target="_blank" rel="noopener noreferrer">
         <img src="github.png" style="width:50px; height:auto" />
@@ -240,7 +240,7 @@
   <div class="project">
     <h3>DSP-based musical reverb algorithms using Blackfin devices</h3>
     <img src="reverb.png" alt="Reverb Project">
-    <p>This is my third-year individual project which implemented a reverberation algorithm, supervised by Prof. Patrick Gaydecki. The algorithm comprised digital comb filters, low pass filters and allpass filters arranged logically to simulate direct and indirect audio reflections. Separate offline and real-time algorithms were made. The offline algorithm was programmed in Delphi and could be applied to .WAV files selected via a custom graphical user interface. Real-time audio processing was achieved by programming an ADSP-BF706 EZ-KIT Mini Evaluation board with the algorithm and then applying it to an audio input.</p>
+    <p>Third-year individual project which implemented a reverberation algorithm, supervised by Prof. Patrick Gaydecki. The algorithm comprised digital comb filters, low pass filters and allpass filters to simulate direct and indirect sound reflections. An offline algorithm was programmed in Delphi and applied to .WAV files selected via a user interface. Real-time audio processing was achieved by programming an ADSP-BF706 EZ-KIT Mini Evaluation board with the algorithm and then applying it to an audio input.</p>
   </div>
 
   <div class="project">
