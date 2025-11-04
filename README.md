@@ -1,200 +1,157 @@
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Allan Binoy Issac</title>
-<style>
-  body, html {
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Allan Binoy Issac</title>
+  
+  <!--  SEO Meta Tags -->
+  <meta name="description" content="Personal website of Allan Binoy Issac, MSc Robotics student at The University of Manchester. Passionate about embedded systems, control, and robotics engineering." />
+  <meta name="keywords" content="Allan Binoy Issac, Allan Issac, engineer" />
+  <meta name="author" content="Allan Binoy Issac" />
 
-  h1, h2, h3 {
-    text-align: center;
-    margin: 0 0 20px 0;
-  }
+  <!--  Open Graph (for Google, LinkedIn, and social previews) -->
+  <meta property="og:title" content="Allan Binoy Issac - Robotics Engineer" />
+  <meta property="og:description" content="MSc Robotics student at The University of Manchester, specializing in embedded systems, control, and robotics." />
+  <meta property="og:url" content="https://allanbissac.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://allanbissac.github.io/allan.png" />
 
-  h1 {
-    margin-top: 30px; /* Added 30px top margin for the name */
+  <!--  Structured Data for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Allan Binoy Issac",
+    "url": "https://allanbissac.github.io/",
+    "image": "https://allanbissac.github.io/allan.png",
+    "sameAs": [
+      "https://github.com/allanbissac",
+      "https://www.linkedin.com/in/allan-binoy-issac"
+    ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "The University of Manchester"
+    },
+    "jobTitle": "MSc Robotics Student"
   }
+  </script>
 
-  p {
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  /* About Me Section */
-  .about-me {
-    display: flex;
-    flex-direction: row; /* Row on large screens */
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 10%;
-    background-color: #f9f9f9;
-  }
-
-  .about-text {
-    flex: 1;
-    padding-right: 30px;
-  }
-
-  .about-text h2 {
-    text-align: center; /* Center-align About Me heading */
-  }
-
-  .about-img {
-    flex-shrink: 0;
-    max-width: 200px;
-    width: 100%;
-    border-radius: 10px;
-    margin-left: 30px;
-    transition: transform 0.3s ease;
-  }
-
-  .about-img:hover {
-    transform: scale(1.05);
-  }
-
-  /* Projects Section */
-  section.projects {
-    background-color: #000;
-    color: white;
-    padding: 50px 10%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    align-items: stretch;
-  }
-
-  .project {
-    background-color: #111;
-    padding: 20px;
-    flex: 1 1 45%; /* Two columns on large screens */
-    min-width: 300px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .project img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    transition: transform 0.3s ease;
-  }
-
-  .project img:hover {
-    transform: scale(1.05);
-  }
-
-  .project p {
-    flex-grow: 1;
-  }
-
-  /* Skills Section */
-  section.skills {
-    background-color: #fff;
-    padding: 50px 10%;
-    text-align: center;
-  }
-
-  section.skills h2 {
-    margin-bottom: 30px;
-  }
-
-  .skills-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .skills-icons img {
-    height: 80px; /* Adjust proportionally */
-    width: auto;
-    transition: transform 0.3s ease;
-  }
-
-  .skills-icons img:hover {
-    transform: scale(1.1);
-  }
-
-  /* Academic Videos Section */
-  section.videos {
-    background-color: #f0f0f0;
-    padding: 50px 10%;
-    text-align: center;
-  }
-
-  section.videos iframe {
-    max-width: 100%;
-  }
-
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 50px 10%;
-    background-color: #000;
-    color: white;
-  }
-
-  /* Responsive Design */
-  @media screen and (max-width: 1024px) {
-    .about-me {
-      padding: 50px 5%;
+  <!--  Styling (your original CSS) -->
+  <style>
+    /* Your existing CSS goes here — no changes needed */
+    body, html {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
     }
-
+    h1, h2, h3 {
+      text-align: center;
+      margin: 0 0 20px 0;
+    }
+    h1 { margin-top: 30px; }
+    p { font-size: 18px; line-height: 1.6; }
+    a { text-decoration: none; }
+    .about-me {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 10%;
+      background-color: #f9f9f9;
+    }
+    .about-text { flex: 1; padding-right: 30px; }
+    .about-text h2 { text-align: center; }
+    .about-img {
+      flex-shrink: 0;
+      max-width: 200px;
+      width: 100%;
+      border-radius: 10px;
+      margin-left: 30px;
+      transition: transform 0.3s ease;
+    }
+    .about-img:hover { transform: scale(1.05); }
     section.projects {
-      padding: 50px 5%;
+      background-color: #000;
+      color: white;
+      padding: 50px 10%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      align-items: stretch;
     }
-
+    .project {
+      background-color: #111;
+      padding: 20px;
+      flex: 1 1 45%;
+      min-width: 300px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      transition: transform 0.3s ease;
+    }
+    .project img:hover { transform: scale(1.05); }
+    .project p { flex-grow: 1; }
     section.skills {
-      padding: 50px 5%;
-    }
-
-    section.videos {
-      padding: 50px 5%;
-    }
-
-    footer {
-      padding: 50px 5%;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .about-me {
-      flex-direction: column; /* Stack image above text */
+      background-color: #fff;
+      padding: 50px 10%;
       text-align: center;
     }
-
-    .about-text {
-      padding: 0;
+    section.skills h2 { margin-bottom: 30px; }
+    .skills-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
     }
-
-    .about-img {
-      margin-left: 0;
-      margin-bottom: 20px;
-      max-width: 150px;
+    .skills-icons img {
+      height: 80px;
+      width: auto;
+      transition: transform 0.3s ease;
     }
-
-    .project {
-      flex: 1 1 100%; /* One project per row on small screens */
+    .skills-icons img:hover { transform: scale(1.1); }
+    section.videos {
+      background-color: #f0f0f0;
+      padding: 50px 10%;
+      text-align: center;
     }
-
-    section.projects img {
-      max-width: 80%;
+    section.videos iframe { max-width: 100%; }
+    footer {
+      text-align: center;
+      padding: 50px 10%;
+      background-color: #000;
+      color: white;
     }
-  }
-</style>
+    @media screen and (max-width: 1024px) {
+      .about-me, section.projects, section.skills, section.videos, footer {
+        padding: 50px 5%;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .about-me {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-text { padding: 0; }
+      .about-img {
+        margin-left: 0;
+        margin-bottom: 20px;
+        max-width: 150px;
+      }
+      .project { flex: 1 1 100%; }
+      section.projects img { max-width: 80%; }
+    }
+  </style>
 </head>
+
 <body>
 
 <h1>ALLAN BINOY ISSAC</h1>
