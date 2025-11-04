@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://allanbissac.github.io/sitemap.xml
