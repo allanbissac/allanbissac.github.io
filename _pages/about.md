@@ -33,12 +33,13 @@ In this second-year team project, we developed an autonomous line-sensing buggy 
 
 Videos
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<!--
+Source - https://stackoverflow.com/a
+Posted by huon, modified by community. See post 'Timeline' for change history
+Retrieved 2025-12-23, License - CC BY-SA 3.0
+-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rEPwbM8i3BM?si=hBUH8n-f6rwGmNeB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Site-wide configuration
 ------
