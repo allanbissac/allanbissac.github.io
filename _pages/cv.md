@@ -26,7 +26,7 @@ Skills
 * Software packages and frameworks: NumPy, PyTorch, ROS 2, Simulink
 * Languages: English, Malayalam
 
-Publications
+Projects
 ======
 * Robotics Design Project: Developing a robotic platform based on the Leo Rover to autonomously detect and navigate towards differently coloured objects. Currently working on computer vision system.
 * Fourth-year team project: Near-field Radar Measurement and Signal Processing System for Biomedical and Soft-tissue Imaging Research. Programmed a frequency synthesiser to generate microwave frequency signals for non-destructive scanning and wrote the driver to control the mechatronic rig
